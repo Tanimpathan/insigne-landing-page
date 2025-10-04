@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Card from "./card";
+import Card from "./Card";
 
 export default function DataStorage() {
   return (
