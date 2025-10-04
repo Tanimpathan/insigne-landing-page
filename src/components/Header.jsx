@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -10,7 +10,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 bg-[#262626]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src="/src/assets/round-logo.png" className="w-[60px] h-[60px]"/>
+          <img src="/assets/round-logo.png" className="w-[60px] h-[60px]" />
           <div className="text-cyan-400 font-bold text-lg">Insignia</div>
         </div>
 
@@ -33,12 +33,15 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <button className="hidden md:flex gap-2 cursor-pointer text-cyan-400 shadow-xl shadow-[0_25px_50px_-12px_#000] px-4 py-2 rounded-full font-medium">
               Request Demo
-              <ArrowRight className="w-[20px] text-[#dd45dd]"/>
+              <ArrowRight className="w-[20px] text-[#dd45dd]" />
             </button>
             <ThemeToggle />
 
             {/* Mobile toggle */}
-            <button className="md:hidden p-2" onClick={() => setOpen((o) => !o)}>
+            <button
+              className="md:hidden p-2"
+              onClick={() => setOpen((o) => !o)}
+            >
               <svg
                 className="w-6 h-6 text-gray-300"
                 fill="none"

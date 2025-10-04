@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="grid md:grid-cols-4 gap-6">
         <div>
           <div className="flex items-center gap-2">
-            <img src="/src/assets/round-logo.png" className="w-[50px] h-[50px]"/>
+            <img src="/assets/round-logo.png" className="w-[50px] h-[50px]" />
             <div className="text-cyan-400 font-bold text-lg">Insignia</div>
           </div>
           <div className="mt-5 text-cyan-400">
@@ -32,7 +32,9 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="text-cyan-400 mb-2">Social</h4>
-          <div className="flex gap-3 text-cyan-400">Twitter · Facebook · Instagram</div>
+          <div className="flex gap-3 text-cyan-400">
+            Twitter · Facebook · Instagram
+          </div>
         </div>
       </div>
     </footer>
