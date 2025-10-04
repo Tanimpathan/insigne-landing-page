@@ -11,7 +11,7 @@ export default function DataStorage() {
           className="hidden md:block flex-1"
         >
           <img
-            src="/src/assets/server.png"
+            src="/assets/server.png"
             alt="phone"
             className="mx-auto md:ml-auto"
           />
