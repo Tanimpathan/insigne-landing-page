@@ -24,7 +24,7 @@ export default function Hero() {
         </motion.p>
         <div className="mt-8 flex gap-4">
           <button className="cursor-pointer text-white shadow-xl shadow-[0_25px_50px_-12px_#000] px-4 py-2 rounded-full font-medium">
-              Learn more
+            Learn more
           </button>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Hero() {
         <img
           src="/src/assets/hero.png"
           alt="servers"
-          className="w-full max-w-md"
+          className="w-full max-w-md hidden md:block"
         />
       </motion.div>
     </section>
