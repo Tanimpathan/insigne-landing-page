@@ -35,7 +35,7 @@ export default function Hero() {
         className="flex-1"
       >
         <img
-          src="/src/assets/hero.png"
+          src="/assets/hero.png"
           alt="servers"
           className="w-full max-w-md hidden md:block"
         />

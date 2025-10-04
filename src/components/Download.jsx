@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Card from "./card";
+import Card from "./Card";
 
 export default function Download() {
   return (
@@ -27,7 +27,7 @@ export default function Download() {
           className="hidden md:block flex-1"
         >
           <img
-            src="/src/assets/phone.png"
+            src="/assets/phone.png"
             alt="phone"
             className="mx-auto md:ml-auto h-[400px]"
           />
